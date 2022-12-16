@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+	<script>
+	var num1=prompt("enter number1");
+	var num2=prompt("enter number2");
+	var num3=prompt("enter number3");
+	var num4=prompt("enter number4");
+	
+		if(num1>num2&&num1>num3&&num1>num4){
+			if(num2>num3&&num2>num4){
+				console.log(num4,num3,num2,num1)
+			}
+			else{
+				console.log(num2,num3,num4,num1)
+			}
+		}
+		else if(num3>num1&&num3>num2&&num3>num4){
+		if(num2>num1&&num2>num3){
+			console.log(num1,num2,num4,num3)
+		}
+		else{
+			console.log(num2,num1,num4,num3)
+		}
+	}
+	else if(num3>num1&&num3>num2){
+		if(num2>num1){
+			console.log(num4,num2,num3,num1)
+			
+		}
+		else{
+			console.log(num2,num1,num3,num4)
+		}
+		
+	}
+	else if(num4>num1&&num4>num2){
+		if(num3>num1){
+			console.log(num4,num3,num2,num1)
+			
+		}
+		else{
+			console.log(num3,num1,num2,num4)
+		}
+		
+	}
+	else{
+	console.log("error")
+	}
+	
+	
+	
+	
+	</script>
+<body>
+</html>
